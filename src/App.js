@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Myprop from "./tugas3";
+import Tugas1 from "./tugas1";
+import Tambah from "./tugas2";
+import Tugas4 from "./tugas4";
+import Tugas5 from "./tugas5";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Tugas-Js</h1>
+      <br></br>
+      <Tugas1 />
+      <br></br>
+      <Tambah />
+      <br></br>
+      <Myprop judul="Soal 3" />
+      <Myprop text="saya bersekolah dari smk ti bazma"/>
+      <Tugas4/>
+      <Tugas5/>
     </div>
   );
 }
